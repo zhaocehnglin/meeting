@@ -22,6 +22,9 @@ Route::post("detial/{id}","meetcontroller@detial");
 Route::post("addmeet","meetcontroller@addmeet");
 Route::post("room","meetcontroller@room'");
 Route::post("editroom","meetcontroller@editroom");
+Route::get("/",function(){
+	return "hello";
+});
 //Route::get("ceshi","meetcontroller@meeting");
 /*
 |--------------------------------------------------------------------------
